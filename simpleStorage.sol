@@ -6,7 +6,7 @@ contract SimpleStorage {
     uint256 secretValue = 56;
 
     //setter function to the value
-    function setVal(uint256 _value) public {
+    function setVal(uint256 _value) public virtual   {
         value = _value;
     }
 
